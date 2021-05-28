@@ -12,7 +12,8 @@ public class Ex20_1 {
 		Scanner sc = new Scanner(System.in);
 		boolean flag1 = true;
 		boolean flag2 = true;
-		int answer = 36; // 임의로 정한 숫자게임 정답
+		int answer = (int)(Math.random()*100) + 1;
+		//int answer = 36; // 임의로 정한 숫자게임 정답
 		String yes_or_no;
 		
 		System.out.println("=====================");
